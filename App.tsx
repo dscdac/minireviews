@@ -5,7 +5,6 @@ import { Blink } from "./Blink";
 import { LotsOfStyles } from "./LotsOfStyles";
 import { FixedDimensionsBasics } from "./FixedDimensionsBasics";
 import { FlexDimensionsBasics } from "./FlexDimensionsBasics";
-import {} from "./";
 
 export default function App() {
   return (

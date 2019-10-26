@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "My first App!",
-    "slug": "AwesomeProject",
+    "name": "MiniReview",
+    "slug": "minireview",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "A hub to catch all those little judgements before they get lost in time...",
+    "githubUrl": "https://github.com/dscdac/minireviews"
   }
 }
