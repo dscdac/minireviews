@@ -5,6 +5,7 @@ import { Blink } from "./Blink";
 import { LotsOfStyles } from "./LotsOfStyles";
 import { FixedDimensionsBasics } from "./FixedDimensionsBasics";
 import { FlexDimensionsBasics } from "./FlexDimensionsBasics";
+import { FilmList } from "./FilmList";
 
 export default function App() {
   return (
@@ -23,8 +24,12 @@ export default function App() {
     //   <FlexDimensionsBasics />
     // </View>
 
-    <View style={styles.container}>
-      <FlexDimensionsBasics />
+    // <View style={styles.container}>
+    //   <FlexDimensionsBasics />
+    // </View>
+
+    <View style={{ flex: 0.5, alignItems: "center", justifyContent: "center" }}>
+      <FilmList />
     </View>
   );
 }
